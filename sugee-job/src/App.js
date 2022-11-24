@@ -1,21 +1,24 @@
 import React from "react";
 import Header from "./components/layout/Header";
 import Footer from "./components/layout/Footer";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import JobSeeker from "./pages/JobSeeker";
+import Employer from "./pages/Employer";
 
-// Bootstrap CSS
-import "bootstrap/dist/css/bootstrap.min.css";
-// Bootstrap Bundle JS
-import "bootstrap/dist/js/bootstrap.bundle.min";
-import Home from "./components/home/Home";
+
 
 
 const App = () => {
   return (
-    <div>
+    <Router>
       <Header/>
-      <Home/>
+      <Routes>
+        <Route path = '/' exact element={<Navigate to='/jobseeker'/>}/>
+        <Route path='/jobseeker' exact element={<JobSeeker/>}/>
+        <Route path='/employer' exact element={<Employer/>}/>
+      </Routes>
       <Footer/>
-    </div>
+    </Router>
   );
 }
 
