@@ -4,6 +4,7 @@ import Footer from "./components/layout/Footer";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import JobSeeker from "./pages/JobSeeker";
 import Employer from "./pages/Employer";
+import BrowseJobs from "./pages/BrowseJobs";
 
 
 
@@ -16,6 +17,7 @@ const App = () => {
         <Route path = '/' exact element={<Navigate to='/jobseeker'/>}/>
         <Route path='/jobseeker' exact element={<JobSeeker/>}/>
         <Route path='/employer' exact element={<Employer/>}/>
+        <Route path='/browsejobs' exact element={<BrowseJobs/>}/>
       </Routes>
       <Footer/>
     </Router>

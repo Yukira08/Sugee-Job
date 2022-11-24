@@ -52,3 +52,12 @@
     border-radius: 24px;
     padding: 20px ;
   }
+
+  .category-button{
+    background-color: white;
+    color: #6E5FD2;
+    margin:1%;
+    border:1px solid #6E5FD2;
+    border-radius:25px;
+    padding:10px 15px;
+}

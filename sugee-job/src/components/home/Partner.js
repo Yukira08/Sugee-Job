@@ -5,7 +5,7 @@ const Partner = () => {
     <Fragment>
       <div class="container my-5">
         <p class="text-center">
-          Jobseekers partnering with SUGEE Works worling at
+          Jobseekers partnering with SUGEE Works working at
         </p>
         <div class="row">
           <div class="col-lg-2">
@@ -20,7 +20,6 @@ const Partner = () => {
               src={require("../../assets/partner2.jpg")}
               width="160"
               height="48"
-              class="d-inline-block align-text-top"
             ></img>
           </div>
           <div class="col-lg-2">
@@ -28,7 +27,7 @@ const Partner = () => {
               src={require("../../assets/partner3.jpg")}
               width="185"
               height="48"
-              class="d-inline-block align-text-top"
+              
             ></img>
           </div>
           <div class="col-lg-4 text-center">
@@ -36,7 +35,7 @@ const Partner = () => {
               src={require("../../assets/partner4.jpg")}
               width="286"
               height="48"
-              class="d-inline-block align-text-top"
+              
             ></img>
           </div>
           <div class="col-lg-1">
@@ -44,7 +43,7 @@ const Partner = () => {
               src={require("../../assets/partner5.jpg")}
               width="63"
               height="48"
-              class="d-inline-block align-text-top"
+              
             ></img>
           </div>
           <div class="col-lg-1">
@@ -52,7 +51,7 @@ const Partner = () => {
               src={require("../../assets/partner6.jpg")}
               width="96"
               height="48"
-              class="d-inline-block align-text-top"
+              
             ></img>
           </div>
         </div>

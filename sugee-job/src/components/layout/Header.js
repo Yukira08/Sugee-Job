@@ -23,9 +23,9 @@ const Header = (props) => {
                 </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link  text-uppercase" aria-current="page" href="#">
+                <Link to="/browsejobs" class="nav-link  text-uppercase" aria-current="page" href="#">
                   Browse Jobs
-                </a>
+                </Link>
               </li>
             </ul>
             <div class="d-flex px-5" role="search">
