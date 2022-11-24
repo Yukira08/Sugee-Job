@@ -7,13 +7,15 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // Bootstrap Bundle JS
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import Home from "./components/home/Home";
+import Employer from "./components/employer/Home";
+
 
 
 const App = () => {
   return (
     <div>
       <Header/>
-      <Home/>
+      <Employer/>
       <Footer/>
     </div>
   );
