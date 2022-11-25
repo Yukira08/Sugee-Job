@@ -1,0 +1,54 @@
+
+.profile {
+    background: #F8F7FD;
+    border-radius: 12px;
+}
+
+  .profile-active {
+    background-color: #6E5FD2;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+  }
+
+  .search {
+    position: relative;
+  }
+
+  .search-icon {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+  }
+
+  .search input{
+    text-indent: 80px;
+  }
+
+  .search button {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background: #6E5FD2;
+    width: 352px;
+  }
+
+  .hero {
+    background-image: url("../../assets/sugee-hero.png");
+    height: 900px;
+    background-size: cover;
+    margin: 0 20px;
+  }
+
+  .hero form{
+    padding: 600px 0 30px 0;
+  }
+
+  .cta{
+    background-image: url("../../assets/cta.jpg");
+    background-size: cover;
+    height: 332px;
+    margin: 0px 30px;
+    border-radius: 24px;
+    padding: 20px ;
+  }
