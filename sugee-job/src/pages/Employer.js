@@ -1,6 +1,6 @@
 import React from "react";
 import Profile from "../components/home/Profile";
-import Categories from "../components/employer/Categories";
+import Category from "../components/category/Category";
 import Heroes from "../components/employer/Heroes";
 import Partner from "../components/employer/Partner";
 import Step from "../components/employer/Step";
@@ -13,7 +13,7 @@ const Employer = () => {
         <Heroes/>
         <Partner/>
         <Step/>
-        <Categories/>
+        <Category />
         <Profile />   
         <CTA/>
     </div>

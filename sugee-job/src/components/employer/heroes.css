@@ -1,32 +1,9 @@
-.container {
-    position: relative;
-    text-align: center;
-    color: white;
-  }
-  .centered {
-    position: absolute;
-
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  .center-paragraph{
-    position: absolute;
-
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-  }
-  .centered-button{
-    position: absolute;
-
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  .cover{
-    background-size:cover;
-
-
-  }
+.hero-button{
+  width: 150px !important;
+}
+.hero {
+  background-image: url("../../assets/cover.png");
+  height: 900px;
+  background-size: cover;
+  margin: 0 20px;
+}

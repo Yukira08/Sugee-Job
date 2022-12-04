@@ -8,7 +8,7 @@ import { BiNetworkChart } from "react-icons/bi";
 import "./style.css";
 const Profile = () => {
   return (
-    <div class="container my-5 profile p-5">
+    <div class="container my-5 profile p-5 text-dark">
       <div class="text-center">
         <p class="text-uppercase">
           <strong>What is sugee?</strong>
