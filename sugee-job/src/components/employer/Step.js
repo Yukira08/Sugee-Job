@@ -5,7 +5,7 @@ const Step = () => {
        <div class="container pt-5">
         <p class="text-center text-primary bold">How SUGEE Works works?</p>
         <h2 class="text-center text-dark bold">Small steps to build your greatest team, ever!</h2>
-      <h1 class="text-center">Set Up Profile. Apply. Sign. Work.</h1>
+      {/* <h1 class="text-center">Set Up Profile. Apply. Sign. Work.</h1> */}
       <div class="row">
       <div class="col-lg-3">
           <div class="text-center">

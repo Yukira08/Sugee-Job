@@ -3,7 +3,13 @@
 }
 .hero {
   background-image: url("../../assets/cover.png");
-  height: 900px;
+  height: 60vh;
   background-size: cover;
-  margin: 0 20px;
+  width: 100%;
+  background-repeat: no-repeat, no-repeat;
+  background-position:center;
+  /* background-size: 50%, contain;
+        width: 100%;
+        padding-top: 45.45%; /* (h/w) x 100 */
+
 }
