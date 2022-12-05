@@ -3,26 +3,26 @@ import React, { Fragment } from "react";
 const Partner = () => {
   return (
     <Fragment>
-      <div class="container my-5">
+      <div class="container my-5 partner">
         <p class="text-center">
           Jobseekers partnering with SUGEE Works working at
         </p>
         <div class="row">
-          <div class="col-lg-2">
+          <div class="col-4 col-lg-2">
             <img
               src={require("../../assets/partner1.jpg")}
               width="130"
               height="48"
             ></img>
           </div>
-          <div class="col-lg-2">
+          <div class="col-4 col-lg-2">
             <img
               src={require("../../assets/partner2.jpg")}
               width="160"
               height="48"
             ></img>
           </div>
-          <div class="col-lg-2">
+          <div class="col-4 col-lg-2">
             <img
               src={require("../../assets/partner3.jpg")}
               width="185"
@@ -30,7 +30,7 @@ const Partner = () => {
               
             ></img>
           </div>
-          <div class="col-lg-4 text-center">
+          <div class="col-8 col-lg-4">
             <img
               src={require("../../assets/partner4.jpg")}
               width="286"
@@ -38,7 +38,7 @@ const Partner = () => {
               
             ></img>
           </div>
-          <div class="col-lg-1">
+          <div class="col-2 col-lg-1">
             <img
               src={require("../../assets/partner5.jpg")}
               width="63"
@@ -46,12 +46,11 @@ const Partner = () => {
               
             ></img>
           </div>
-          <div class="col-lg-1">
+          <div class="col-2 col-lg-1">
             <img
               src={require("../../assets/partner6.jpg")}
               width="96"
               height="48"
-              
             ></img>
           </div>
         </div>

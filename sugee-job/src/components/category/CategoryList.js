@@ -6,8 +6,8 @@ import "./CategoryList.css";
 const CategoryList = (props) => {
   return (
     <Fragment>
-      <div class="category-cards">
-        <ul class="list-unstyled category-card mx-5">
+      <div class="container-fluid">
+        <ul class="list-unstyled">
           <div class="row">
             {props.categories.map((category) => (
               <CategoryItem

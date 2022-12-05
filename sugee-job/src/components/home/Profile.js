@@ -19,30 +19,27 @@ const Profile = () => {
           Kansai, seamlessly
         </p>
       </div>
-      <div class="row mt-5 mb-4">
-        <div class="col-lg-4">
-          <div>
-            <a class="profile-active"><MdWorkOutline size={25} class="text-center"/></a>
-            
-            <span class="mx-4">Business Setup</span>
-          </div>
+      <div class="row mt-5 mb-4 profile-link">
+        <div class="col-4">
+            <a class="profile-active"><MdWorkOutline size={25} class="text-center"/></a>    
+            <span class="w-100">Business Setup</span>
         </div>
-        <div class="col-lg-4">
+        <div class="col-4">
           <div>
             <HiOutlineBookOpen size={25} color="#6E5FD2" />
-            <span class="mx-4 text-muted">SUGEE Magazine</span>
+            <span class="text-muted">SUGEE Magazine</span>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-4">
           <div>
             <BsGlobe size={25} color="#6E5FD2" />
-            <span class="mx-4 text-muted">SUGEE Translation</span>
+            <span class="text-muted">SUGEE Translation</span>
           </div>
         </div>
       </div>
       <hr></hr>
       <div class="row">
-        <div class="col-lg-6 px-4">
+        <div class="col-lg-6 col-md-12 order-lg-first order-last">
           <h4 class="mb-3">
             Setting up your business in a <br />
             minutes.
@@ -55,7 +52,7 @@ const Profile = () => {
             Learn More
           </button>
         </div>
-        <div class="col-lg-6 px-4">
+        <div class="col-lg-6 col-md-12 order-lg-last order-first px-4">
           <div class="row bg-white rounded p-4 mb-3">
             <div class="col-lg-2">
               <BsGlobe size={25} color="#6E5FD2" />
@@ -74,7 +71,7 @@ const Profile = () => {
                 <p>We have our own remote working platform, e-learning platform, and digital communities that hepls you well connected.</p>
             </div>    
           </div>
-          <div class="row bg-white rounded p-4 mb-3">
+          <div class="row bg-white rounded p-4 mb-4">
             <div class="col-lg-2">
               <BiNetworkChart size={25} color="#6E5FD2" />
             </div>

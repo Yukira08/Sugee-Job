@@ -4,7 +4,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 
 const CategoryItem = (props) => {
   return (
-    <div class="col-lg-6 py-5">
+    <div class="col-lg-6 col-md-6 col-sm-12 py-5">
       <img
         src={require("../../assets/category1.png")}
         height="240"

@@ -4,8 +4,8 @@ import { BiSearch } from "react-icons/bi";
 import "./style.css";
 const Hero = () => {
   return (
-    <div class="hero">
-      <div class="container-fluid px-3">
+    <div class="container-fluid">
+      <div class="hero">
         {/* <img
         src={require("../../assets/sugee-hero.png")}
         class="w-100"
@@ -18,7 +18,7 @@ const Hero = () => {
           <div class="col-lg-10">
             <form>
               <div class="search">
-                <BiSearch class="search-icon" />
+                <BiSearch class="search-icon"/>
                 <input
                   type="text"
                   class="form-control py-3"

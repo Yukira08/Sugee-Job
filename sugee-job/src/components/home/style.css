@@ -11,7 +11,7 @@
     color: white;
   }
 
-  .search {
+  /* .search {
     position: relative;
   }
 
@@ -31,23 +31,65 @@
     right: 20px;
     background: #6E5FD2;
     width: 352px;
+  } */
+
+  .search{
+    background-color: white;
+    padding: 10px 25px;
+    border-radius: 12px;
+    position: relative;
+    /* margin: 0px 50px; */
+  }
+  .search input{
+    border: none;
+  }
+
+  .search button{
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 12px;
+    padding: 16px 32px;
+  }
+
+  .search-icon{
+    display: none;
   }
 
   .hero {
     background-image: url("../../assets/sugee-hero.png");
-    height: 900px;
+    height: auto;
+    width: 100%;
     background-size: cover;
-    margin: 0 20px;
+    background-position: center;
   }
 
   .hero form{
     padding: 600px 0 30px 0;
   }
 
+  .hero h1{
+    font-family: var(--font-family-open);
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 72px;
+    color: #F9FAFB;
+  }
+
+  .hero p {
+    font-family: var(--font-family-inter);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #F9FAFB;
+  }
+
+  
   .cta{
     background-image: url("../../assets/cta.jpg");
     background-size: cover;
-    height: 332px;
+    background-position: right;
+    height: auto;
     margin: 0px 30px;
     border-radius: 24px;
     padding: 20px ;
@@ -60,4 +102,68 @@
     border:1px solid #6E5FD2;
     border-radius:25px;
     padding:10px 15px;
+}
+
+.profile span{
+  font-family: var(--font-family-open);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 0;
+}
+
+@media only screen and (min-width: 992px) {
+    .search {
+    position: relative;
+  }
+
+  .search-icon {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    display: inline;
+  }
+
+  .search input{
+    text-indent: 50px;
+  }
+
+  .search button {
+    position: absolute;
+    top: 1px;
+    right: 20px;
+    background: #6E5FD2;
+    width: 352px;
+    padding: 16px 8px;
+  }
+}
+
+
+@media only screen and (min-width: 768px) {
+  .profile-link div { 
+    margin: 0;
+    padding: 0;
+  }
+  .profile-link{
+    margin: 0;
+    padding: 0;
+  }
+  .profile-link span{
+    padding-left: 5px;
+  }
+
+  .partner img{
+    margin-top: 30px;
+  }
+
+
+}
+
+@media only screen and (min-width: 600px) {
+  .container {
+    width: inherit;
+  }
+  .search{
+    margin: 0px;
+  }
 }
