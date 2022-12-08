@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { useEffect } from "react";
 
 import useHttp from "../hooks/use-http";
@@ -19,9 +19,9 @@ export async function fetchLatestJob() {
       id: key,
       title: responseData[key].title,
       location: responseData[key].location,
-      posted_at : responseData[key].posted,
-      employment : responseData[key].employment_type,
-      salary : responseData[key].salary,
+      posted_at: responseData[key].posted,
+      employment: responseData[key].employment_type,
+      salary: responseData[key].salary,
       description: responseData[key].description,
     });
   }
@@ -50,7 +50,16 @@ const LatestJob = () => {
     return <p>No Jobs Found.</p>;
   }
 
-  return <LatestJobList latestjobs={loadedJobs} />;
+  return (
+    <Fragment>
+      <LatestJobList latestjobs={loadedJobs} />
+      <div class="container">
+        <div class="text-center">
+          <button class="btn btn-outline-primary">Find More Job</button>
+        </div>
+      </div>
+    </Fragment>
+  );
 };
 
 export default LatestJob;

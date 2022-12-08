@@ -6,8 +6,8 @@ import "./CategoryList.css";
 const CategoryList = (props) => {
   return (
     <Fragment>
-      <div class="container-fluid">
-        <ul class="list-unstyled">
+      <div class="container">
+        {/* <ul class="list-unstyled w-100"> */}
           <div class="row">
             {props.categories.map((category) => (
               <CategoryItem
@@ -19,7 +19,7 @@ const CategoryList = (props) => {
               />
             ))}
           </div>
-        </ul>
+        {/* </ul> */}
       </div>
     </Fragment>
   );

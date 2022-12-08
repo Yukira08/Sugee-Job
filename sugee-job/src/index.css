@@ -7,3 +7,9 @@
   --sugee-purple : #6E5FD2;
   --sugee-black: #121826;
 }
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

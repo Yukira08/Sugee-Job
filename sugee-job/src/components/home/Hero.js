@@ -15,7 +15,7 @@ const Hero = () => {
                 <h1 class=" mt-5">Places for Foreigner to <br/> Find Job. Fast.</h1>
                 <p>Set up your profile. Discover your opportunities. Choose jobs you like.</p>
             </div>
-          <div class="col-lg-10">
+          <div class="col-lg-10 col-md-10">
             <form>
               <div class="search">
                 <BiSearch class="search-icon"/>

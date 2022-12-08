@@ -3,7 +3,7 @@ import React from "react";
 import "./Footer.css";
 const Footer = () => {
   return (
-    <footer class="w-100 footer">
+    <footer class="w-100 footer mt-5">
       <div class="py-4 flex-shrink-0 bg-light">
         <div class="container-fluid my-2">
           <div class="row">
@@ -55,7 +55,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div class="container-fluid bg-primary ">
+      <div class="container-fluid footer-bg">
         <div class="row">
           <div class="col-lg-9 col-md-8 col-sm-12 my-2 px-5 py-3 text-sm-center">
             <p class="text-white p-0 m-0">SUGEE All Rights Reserved. © 2021</p>
