@@ -1,0 +1,30 @@
+.footer h5{
+    font-family: var(--font-family-open);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #121826;
+}
+
+.footer p {
+    font-family: var(--font-family-inter);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #6C727F;
+}
+.footer img {
+
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+@media only screen and (min-width: 768px) {
+    .footer div{
+        padding-left: 10px ;
+    }
+}
+
+
+
