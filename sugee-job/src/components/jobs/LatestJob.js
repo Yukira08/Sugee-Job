@@ -1,8 +1,11 @@
 import React, { Fragment } from "react";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 import useHttp from "../hooks/use-http";
 import LatestJobList from "./LatestJobList";
+import {MdKeyboardArrowRight} from "react-icons/md"
+import "./LatestJob.css";
 
 export async function fetchLatestJob() {
   const response = await fetch(
@@ -53,10 +56,17 @@ const LatestJob = () => {
   return (
     <Fragment>
       <LatestJobList latestjobs={loadedJobs} />
-      <div class="container">
-        <div class="text-center">
-          <button class="btn btn-outline-primary">Find More Job</button>
-        </div>
+      <div class="container latestjob">
+        <p class="text-center">
+        <Link
+          to="/browsejobs"
+          class="nav-link text-uppercase"
+          aria-current="page"
+        >
+          <span>Find More Job <MdKeyboardArrowRight /></span> 
+        </Link>
+          {/* <button class="text-uppercase px-4">Find More Job <MdKeyboardArrowRight /></button> */}
+        </p>
       </div>
     </Fragment>
   );

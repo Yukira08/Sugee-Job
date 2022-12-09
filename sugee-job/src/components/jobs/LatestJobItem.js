@@ -29,9 +29,9 @@ const LatestJobItem = (props) => {
           <p class="card-text mb-5">
             {props.description} <a href="#">Read More</a>
           </p>
-          <a href="#" class="btn btn-primary w-100 p-2">
+          <button class="btn-purple w-100 p-2">
             APPLY NOW
-          </a>
+          </button>
         </div>
       </div>
     </div>

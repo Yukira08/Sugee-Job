@@ -55,7 +55,7 @@ const Partner = () => {
           </div>
         </div>
       </div>
-      <div class="cta">
+      <div class="cta my-5">
         <div class="container-fluid p-5">
           <div class="text-white">
             <h3>Ready to get a job?</h3>

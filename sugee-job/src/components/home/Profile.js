@@ -14,7 +14,7 @@ const Profile = () => {
           <strong>What is sugee?</strong>
         </p>
         <h2>More than just hiring platform</h2>
-        <p class="text-muted my-3">
+        <p class="my-3">
           Quickly remove all barriers to make you ready doing business in
           Kansai, seamlessly
         </p>

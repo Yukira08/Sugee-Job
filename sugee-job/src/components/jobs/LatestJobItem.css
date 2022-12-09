@@ -45,6 +45,20 @@
     color: #4D5562;
 }
 
+.card button{
+    text-decoration: none;
+    background: var(--sugee-purple);
+    border-radius: 12px;
+    border: none;
+    font-family: var(--font-family-inter);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #F8F7FD;
+}
+
 .text-uppercase{
     font-family: var(--font-family-inter);
     font-style: normal;

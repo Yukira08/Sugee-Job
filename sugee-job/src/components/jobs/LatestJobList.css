@@ -5,3 +5,10 @@
     padding: 0;
 }
 
+h2{
+    font-family: var(--font-family-open);
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    color: #14141D;
+}

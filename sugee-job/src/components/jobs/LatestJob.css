@@ -1,0 +1,11 @@
+.latestjob span{
+    font-family: var(--font-family-inter);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--sugee-purple);
+    background-color: var(--sugee-white);
+    border: 1px solid var(--sugee-purple);
+    border-radius: 12px;
+    padding: 16px 32px;
+}

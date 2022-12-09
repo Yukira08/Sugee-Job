@@ -59,11 +59,11 @@ const Header = (props) => {
               <Menu />
             </ul>
           </div>
-          <div class="nav-buttons-container d-flex px-5" role="search">
-            <button class="btn btn-light mx-3" type="submit">
+          <div class="nav-buttons-container px-5" role="search">
+            <a class="btn btn-light mx-3" type="submit">
               Register
-            </button>
-            <button class="btn btn-success text-uppercase" type="submit">
+            </a>
+            <button class="login-btn text-uppercase" type="submit">
               Login
             </button>
           </div>
@@ -79,9 +79,9 @@ const Header = (props) => {
                   <Menu />
                 </div>
                 <div className="navbar-button-container">
-                  <button class="btn btn-light mx-3" type="submit">
+                  <a class="btn btn-light mx-3" type="submit">
                     Register
-                  </button>
+                  </a>
                   <button class="btn btn-success text-uppercase" type="submit">
                     Login
                   </button>

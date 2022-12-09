@@ -31,3 +31,17 @@
 .footer-bg{
     background-color: var(--sugee-purple);
 }
+
+.footer button{
+    font-family: var(--font-family-inter);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+
+    color: #F8F7FD;
+    background: #6E5FD2;
+    border-radius: 12px;
+    border: none;
+    padding: 12px 32px;
+}

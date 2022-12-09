@@ -63,6 +63,34 @@
     color: #F9FAFB;
   }
 
+  .step h1{
+    font-family: var(--font-family-open);
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+
+    color: #121826;
+  }
+
+  .step h3,
+  .profile h4{
+    font-family: var(--font-family-open);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+
+    color: #121826;
+  }
+
+  .step p,
+  .profile p{
+    font-family: var(--font-family-inter);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6C727F;
+  }
+
   
   .cta{
     background-image: url("../../assets/cta.jpg");
@@ -76,13 +104,44 @@
 
   .category-button{
     background-color: white;
-    color: #6E5FD2;
+    color: var(--sugee-purple);
     margin:1%;
-    border:1px solid #6E5FD2;
+    border:1px solid var(--sugee-purple);
     border-radius:25px;
     padding:10px 15px;
+    font-family: var(--font-family-inter);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
 }
 
+.profile strong{
+  font-family: var(--font-family-inter);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: var(--sugee-purple);
+}
+.profile h2{
+  font-family: var(--font-family-open);
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 150%;
+
+  color: #121826;
+}
+
+.profile h5{
+  font-family: var(--font-family-open);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+
+  color: #121826;
+}
 .profile span{
   font-family: var(--font-family-open);
   font-weight: 700;
@@ -91,6 +150,32 @@
   padding: 0;
 }
 
+.profile button{
+
+  font-family: var(--font-family-inter);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #F8F7FD;
+  background: var(--sugee-purple);
+  border-radius: 12px;
+  padding: 16px 32px;
+  border: none;
+}
+
+
+.partner p{
+  font-family: var(--font-family-inter);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+
+  color: #4D5562;
+}
 @media only screen and (min-width: 992px) {
   .container{
     margin: 0;
