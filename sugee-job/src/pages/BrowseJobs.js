@@ -1,9 +1,16 @@
-import React from "react";
+import React, { Fragment } from "react";
+
+import SearchForm from "../components/search/SearchForm";
+import Jobs from "../components/jobs/Jobs";
 
 const BrowseJobs = () => {
-    return <div>
-        <h1>Browse Jobs</h1>
-    </div>
+    return (
+        <Fragment>
+            <SearchForm/>
+            <Jobs/>
+        </Fragment>
+    )
+
 }
 
 export default BrowseJobs;

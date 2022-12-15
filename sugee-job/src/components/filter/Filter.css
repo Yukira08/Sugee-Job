@@ -1,0 +1,117 @@
+.filter {
+    background: #F8F7FD;
+    border-radius: 12px;
+    padding: 32px;
+}
+
+.filter h3{
+    font-family: var(--font-family-open);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+
+    color: #14141D;
+}
+
+.filter h5{
+    font-family: var(--font-family-inter);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #14141D;  
+}
+
+.clear-btn{
+    border: none;
+    background: none;
+    color: #DD524C; ;
+}
+
+.clear-btn span,
+.view-btn span{
+    text-transform: uppercase;
+    font-family: var(--font-family-inter);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+
+    margin-right: 5px;
+}
+
+.job-category{
+    margin-top: 32px;
+}
+
+.search-box{
+    background: var(--sugee-white);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #D2D5DA;
+    border-radius: 15px;
+    margin-top: 16px;
+    height: 40px;
+
+}
+
+.search-box input{
+    flex:1;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+}
+
+.filter-salary select{
+    border-radius: 12px;
+    height: 40px;
+}
+
+.filter-salary input{
+    border-radius: 12px;
+    margin-top: 16px;
+}
+
+.view-btn{
+    border: none;
+    background: none;
+    color: var(--sugee-purple);
+}
+
+.employment-type label,
+.experience label{
+    font-family: var(--font-family-inter);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    
+    color: #121826;
+
+}
+
+.languages p{
+    font-family: var(--font-family-inter);
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #121826;
+}
+
+.filter-btn{
+    background: #6E5FD2; 
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    padding: 16px 8px;
+    font-family: var(--font-family-inter);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+
+    text-align: center;
+    text-transform: uppercase;
+    color: #F8F7FD;
+}

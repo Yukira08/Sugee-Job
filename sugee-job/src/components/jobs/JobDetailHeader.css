@@ -1,0 +1,26 @@
+.detail-header h6{
+    font-family: var(--font-family-inter);
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+
+    text-transform: uppercase;
+
+    color: #121826;
+}
+
+
+.detail-header .location span,
+.detail-header .detail-employment span{
+    font-family: var(--font-family-inter);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+
+    text-transform: uppercase;
+
+    color: #3A2E6D;
+    background: #EAE6F9;
+    border-radius: 16px;
+    padding: 4px 16px;
+}

@@ -1,0 +1,24 @@
+.filter_heading h5{
+    font-family: var(--font-family-inter);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #14141D;  
+}
+
+.filter_heading button{
+    border: none;
+    background: none;
+    color: var(--sugee-purple);
+}
+
+.filter_heading span{
+    text-transform: uppercase;
+    font-family: var(--font-family-inter);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+
+    margin-right: 5px;
+}

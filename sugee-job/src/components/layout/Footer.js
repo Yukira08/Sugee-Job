@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer class="w-100 footer mt-5">
       <div class="py-4 flex-shrink-0 bg-light">
-        <div class="container-fluid my-2">
+        <div class="container my-2">
           <div class="row">
             <div class="col-lg-4 col-md-12 px-5">
               <img

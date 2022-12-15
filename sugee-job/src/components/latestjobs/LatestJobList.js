@@ -12,14 +12,15 @@ const LatestJobList = (props) => {
       <ul class="list-unstyled cards mx-5">
         {props.latestjobs.map((latestjob) => (
           <LatestJobItem
-            key={latestjob.id}
-            id={latestjob.id}
-            title={latestjob.title}
-            location={latestjob.location}
-            posted_at={latestjob.posted_at}
-            employment={latestjob.employment}
-            salary={latestjob.salary}
-            description={latestjob.description}
+            // key={latestjob.id}
+            // id={latestjob.id}
+            // title={latestjob.title}
+            // location={latestjob.location}
+            // posted_at={latestjob.posted_at}
+            // employment={latestjob.employment}
+            // salary={latestjob.salary}
+            // description={latestjob.description}
+            loadedJob={latestjob}
           />
         ))}
       </ul>

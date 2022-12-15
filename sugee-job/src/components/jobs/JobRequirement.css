@@ -1,0 +1,69 @@
+.requirement p{
+    font-family: var(--font-family-inter);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #121826;
+}
+
+.requirement .apply{
+    font-family: var(--font-family-inter);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    background: var(--sugee-purple);
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    width: 80%;
+    padding: 16px 8px;
+    text-transform: uppercase;
+    color: var(--sugee-white);
+    margin-right: 10px;
+}
+
+.requirement .bookmark{
+    background: #F8F7FD;
+    color: var(--sugee-purple);
+    border: none;
+    outline: none;
+    border-radius: 12px;  
+    padding: 16px;
+}
+
+.info-container,
+.skill-container {
+    background: #F8F7FD;
+    border-radius: 12px;
+    padding: 32px;
+}
+
+.info {
+    font-family: var(--font-family-inter);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    padding-left: 16px;
+    text-transform: uppercase;
+    color: #6C727F;
+}
+.info>:first-child{
+    font-weight: 700; 
+    
+    color: #121826;
+    padding-bottom: 4px;
+}
+
+.skill-container span{
+    padding: 4px 16px;
+    margin: 8px 4px;
+    background: #EAE6F9;
+    border-radius: 16px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #3A2E6D;
+}
